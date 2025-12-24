@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Selamat Tahun Baru — Untuk Sayangku</title>
+  <meta name="description" content="Ucapan Selamat Tahun Baru untuk Sayangku pada 1 Januari 2026 — dari deajusss" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+
+  <main class="hero" role="main" aria-labelledby="title">
+    <div class="card">
+      <header class="card-header">
+        <h1 id="title" class="title">Untuk Sayangku</h1>
+        <p class="subtitle">1 Januari 2026</p>
+      </header>
+
+      <section class="message" aria-live="polite">
+        <h2 class="greeting">Selamat Tahun Baru</h2>
+        <p class="note">Semoga tahun baru membawa cinta, kebahagiaan, dan mimpi-mimpi kita jadi nyata bersama.</p>
+
+        <div class="signature">
+          <span>Dengan cinta,</span>
+          <strong class="from">deajusss</strong>
+        </div>
+
+        <div class="actions">
+          <button id="revealBtn" class="btn" aria-controls="surprise" aria-expanded="false">Buka Pesan</button>
+          <div id="surprise" class="surprise" hidden aria-hidden="true">
+            <p>Sayangku, terima kasih telah menjadi cahaya di tiap hariku. Mari sambut 2026 bersama — penuh cinta dan tawa ✨</p>
+          </div>
+        </div>
+
+        <div class="countdown" role="timer" aria-atomic="true">
+          <div class="countdown-item"><span id="days">--</span><small>hari</small></div>
+          <div class="countdown-item"><span id="hours">--</span><small>jam</small></div>
+          <div class="countdown-item"><span id="minutes">--</span><small>menit</small></div>
+          <div class="countdown-item"><span id="seconds">--</span><small>detik</small></div>
+        </div>
+      </section>
+
+      <footer class="card-footer">
+        <small class="disclaimer">Selamat Tahun Baru — 1 Januari 2026</small>
+      </footer>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
